@@ -1,0 +1,2 @@
+@echo off
+call cmake -DCMAKE_C_COMPILER:FILEPATH=C:\msys64\mingw64\bin\gcc.exe -DCMAKE_CXX_COMPILER:FILEPATH=C:\msys64\mingw64\bin\g++.exe -G Ninja -B bld -DCMAKE_BUILD_TYPE=Release && cmake --build bld
